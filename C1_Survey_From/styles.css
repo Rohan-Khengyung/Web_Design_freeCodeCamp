@@ -1,0 +1,79 @@
+body{
+    background-color: #091a89;
+    color: rgb(255,255,255)
+    }
+    h1,p{
+      text-align: center;
+      font-family: monospace;
+    }
+    .container{
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #062e5b;
+    }
+    form{
+      width: 60vh; 
+      margin: 0 auto;
+      padding: 16px;
+      max-width: 500px;
+      min-width: 300px;
+      padding-bottom: 2rem;
+    }
+    legend{
+      font-family: cursive;
+    }
+    input{
+      margin: 10px 0 0 0;
+      min-height: 2em;
+      width: 100%;
+    }
+    .inline{
+        display: inline-block;
+    }
+    .inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+      }
+    label{
+        display: block;
+        margin: 0.5rem 0;
+        font-family: cursive;
+    }
+      input[type="submit"] {
+        display: block;
+        width: 60%;
+        margin: 1em auto;
+        height: 2em;
+        font-size: 1.1rem;
+        border-color: white;
+        min-width: 300px;
+        border-radius: 5px;
+        background-color: rgb(36, 186, 36);
+        color: #fff;
+        font-family: monospace;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="number"] {
+        border-radius: 5px;
+        border-color: white;
+        font-family: cursive;
+      }
+      .as{
+        width: 100%;
+        border-radius:5px;
+        border-color: white;
+        height: 32px;
+        font-family: cursive;
+        font-size: 16px;
+        border: 1px solid white;
+        box-sizing: border-box;
+      }
+    textarea{
+      width: 100%;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-family: cursive;
+    }

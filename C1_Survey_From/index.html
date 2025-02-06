@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form </title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Pease fill the form with required information</p>
+    <div class="container">
+    <form method="post" id="survey-form" action="_blank">
+ 
+        <label id="name-label" for="name"> Name <input id="name" type="text" name="name"></label>
+        <br>
+        <label id="email-label" for="email"> Email <input type="email" id="email" name="email" required></label>
+    <br>
+                <label id="number-label" for="number">Age (Optional) <input type="number" id="number" max="120" min="13"></label>
+                
+    <br>
+                <label for="dropdown">How do you hear about us?
+                  <select class="as" id="dropdown" name="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">News</option>
+                    <option value="2">YouTube</option>
+                    <option value="3">Forum</option>
+                    <option value="4">Other</option>
+                  </select>
+                </label>
+    <br>
+        <legend>How likely are you to recommend us to others?</legend>
+        <label for="ex"><input type="radio" checked id="ex" class="inline" name="survey-type" value="1"> Extremely Likely</label>
+        <label for="l"><input type="radio" id="l" class="inline" name="survey-type" value="2"> Likely</label>
+        <label for="n"><input type="radio" id="n" class="inline" name="survey-type" value="3"> Neutral</label>
+        <label for="d"><input type="radio" id="d" class="inline" name="survey-type" value="4"> Dissatisfied</label>
+        <label for="vd"><input type="radio" id="vd" class="inline" name="survey-type" value="5"> Very Dissatisfied</label>
+    <br>
+        <legend>What you like to improve?</legend>
+        <label for="e"><input type="checkbox" checked id="e" class="inline" value="1"> Workshop</label>
+        <label for="l"><input type="checkbox" id="l" class="inline" value="2"> Lecture </label>
+        <label for="s"><input type="checkbox" id="s" class="inline" value="3"> Laboratory</label>
+    <br>
+        <label for="comment">Any comments or suggestions? <textarea name="comment" id="comment" rows="5" cols="45"></textarea></label>
+ 
+   <input class="btn" id="submit" value="Submit" type="submit">
+    </form>
+    </div>
+  </body>
+</html>
