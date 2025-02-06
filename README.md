@@ -1,5 +1,5 @@
 ---
 # Web Design freeCodeCamp
 
-<a href="https://www.freecodecamp.org/learn/">freeCodeCamp Learn</a>
+<a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">freeCodeCamp Learn</a>
 ---
