@@ -24,4 +24,4 @@ This repository contains solutions for freeCodeCamp's Responsive Web Design cour
 ## 📝 How to Use
 1. Clone repository:
    ```bash
-   git clone https://github.com/your-username/web-design-fcc.git
+   git clone https://github.com/your-username/web-design-fcc.git](https://github.com/Rohan-Khengyung/Web_Design_freeCodeCamp.git
